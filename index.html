@@ -431,42 +431,42 @@
 
     <section id="projects">
       <div class="container">
-        <div class="section-heading reveal"><span class="kicker">Selected work</span><h2>Projects I’ve built</h2><p class="section-intro">A selection of projects where I’ve explored application development, AI APIs, data pipelines, and modular system design.</p></div>
+        <div class="section-heading reveal"><span class="kicker">Selected work</span><h2>Projects I’ve built</h2><p class="section-intro">A selection of projects across computer vision, machine learning, and practical application development.</p></div>
         <div class="projects-grid">
           <article class="panel project-card reveal">
-            <div class="project-banner"><span class="project-number">01 / PROJECT</span><h3>Internship Tracker</h3></div>
+            <div class="project-banner"><span class="project-number">01 / PROJECT</span><h3>Waste Sorting &amp; Recycling Quality Controller</h3></div>
             <div class="project-content">
-              <div class="tags"><span class="tag">Python</span><span class="tag">JSON</span><span class="tag">Heuristic scoring</span></div>
-              <p>A local internship-application tracker designed to help prioritize opportunities and manage the application lifecycle.</p>
+              <div class="tags"><span class="tag">Python</span><span class="tag">YOLO11</span><span class="tag">PyTorch</span><span class="tag">CBAM</span></div>
+              <p>A computer-vision project focused on detecting and classifying waste to support smarter waste segregation.</p>
               <ul>
-                <li>Engineered a heuristic scoring algorithm that ranks applications on a 100-point scale using deadline urgency and stipend value.</li>
-                <li>Built a local data-processing pipeline with Python and JSON to manage, filter, and track active applications.</li>
+                <li>Prepared and audited a YOLO-format dataset for six waste categories, with class-aware training, validation, and test splits.</li>
+                <li>Built a YOLO11n baseline and experimental CBAM and P2 variants, with scripts for weight-transfer checks and model comparison.</li>
+              </ul>
+              <div class="project-links"><a class="text-link" href="https://github.com/ashu-zzzz/Waste-sorting-recycling-quality-controller" target="_blank" rel="noopener noreferrer">View source on GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a><span class="text-link" style="color:var(--muted);font-weight:600">In progress · November 2026</span></div>
+            </div>
+          </article>
+          <article class="panel project-card reveal">
+            <div class="project-banner" style="background:radial-gradient(circle at 85% 10%, rgba(139,156,255,.27), transparent 34%),linear-gradient(135deg,#29465c,#151d34 68%)"><span class="project-number">02 / PROJECT</span><h3>Predictive Maintenance &amp; Machine Failure Detection</h3></div>
+            <div class="project-content">
+              <div class="tags"><span class="tag">Python</span><span class="tag">Scikit-learn</span><span class="tag">Pandas</span><span class="tag">Streamlit</span></div>
+              <p>A machine-learning system that estimates machine failure risk from operating measurements using the UCI AI4I 2020 dataset.</p>
+              <ul>
+                <li>Compared Logistic Regression, Random Forest, and Extra Trees using a leakage-safe, stratified train/validation/test workflow.</li>
+                <li>Selected Random Forest using validation PR-AUC; recorded 0.7403 test PR-AUC and 66.67% test recall. Built single- and batch-prediction dashboard features.</li>
+              </ul>
+              <div class="project-links"><a class="text-link" href="https://github.com/ashu-zzzz/Predictive-Maintenance" target="_blank" rel="noopener noreferrer">View source on GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a><span class="text-link" style="color:var(--muted);font-weight:600">November 2026</span></div>
+            </div>
+          </article>
+          <article class="panel project-card reveal">
+            <div class="project-banner" style="background:radial-gradient(circle at 85% 10%, rgba(94,234,212,.19), transparent 34%),linear-gradient(135deg,#234b50,#151d34 68%)"><span class="project-number">03 / PROJECT</span><h3>Internship Tracker</h3></div>
+            <div class="project-content">
+              <div class="tags"><span class="tag">Python</span><span class="tag">JSON</span><span class="tag">CRUD</span><span class="tag">Deadline tracking</span></div>
+              <p>A lightweight application for organising internship opportunities and tracking applications through their lifecycle.</p>
+              <ul>
+                <li>Implemented internship record management, status updates, deadline tracking, search/filter, and application statistics.</li>
+                <li>Added skill-based role suggestions and smart application prioritisation to help organise opportunities.</li>
               </ul>
               <div class="project-links"><a class="text-link" href="https://github.com/ashu-zzzz/Internshp_Tracker" target="_blank" rel="noopener noreferrer">View source on GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a><span class="text-link" style="color:var(--muted);font-weight:600">February 2026</span></div>
-            </div>
-          </article>
-          <article class="panel project-card reveal">
-            <div class="project-banner" style="background:radial-gradient(circle at 85% 10%, rgba(139,156,255,.27), transparent 34%),linear-gradient(135deg,#29465c,#151d34 68%)"><span class="project-number">02 / PROJECT</span><h3>Chatbot</h3></div>
-            <div class="project-content">
-              <div class="tags"><span class="tag">Gemini Vision API</span><span class="tag">EXIF metadata</span><span class="tag">Geospatial data</span></div>
-              <p>A WhatsApp-style web application that uses image understanding and location metadata to enrich user interactions.</p>
-              <ul>
-                <li>Engineered a WhatsApp-style web application utilizing the Gemini Vision API.</li>
-                <li>Developed a geospatial data pipeline that extracts embedded GPS coordinates from image EXIF metadata.</li>
-              </ul>
-              <div class="project-links"><a class="text-link" href="https://github.com/ashu-zzzz/chatbot" target="_blank" rel="noopener noreferrer">View source on GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a><span class="text-link" style="color:var(--muted);font-weight:600">November 2025</span></div>
-            </div>
-          </article>
-          <article class="panel project-card reveal">
-            <div class="project-banner" style="background:radial-gradient(circle at 85% 10%, rgba(94,234,212,.19), transparent 34%),linear-gradient(135deg,#234b50,#151d34 68%)"><span class="project-number">03 / PROJECT</span><h3>CORSAIR</h3></div>
-            <div class="project-content">
-              <div class="tags"><span class="tag">Gemini API</span><span class="tag">NLP</span><span class="tag">Analytics</span></div>
-              <p>A WhatsApp chatbot for real-time ocean-hazard reporting and analytics validation, integrating multiple data streams.</p>
-              <ul>
-                <li>Integrated two data streams and developed 5+ functional modules.</li>
-                <li>Implemented NLP classification, analytics dashboards, and three-role access control.</li>
-              </ul>
-              <div class="project-links"><a class="text-link" href="https://github.com/ashu-zzzz/corsair" target="_blank" rel="noopener noreferrer">View source on GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a><span class="text-link" style="color:var(--muted);font-weight:600">October 2025</span></div>
             </div>
           </article>
         </div>
